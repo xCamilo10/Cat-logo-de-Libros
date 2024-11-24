@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Catálogo de Libros</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <style>
+      .seccion {
+        border-radius: 10px;
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1),
+          0 4px 10px rgba(0, 0, 0, 0.1);
+        background-color: #d2d2d2;
+        padding: 30px;
+        margin-bottom: 30px;
+      }
+
+      /* Efecto de sombra al pasar el cursor */
+      .seccion:hover {
+        box-shadow: 0 15px 40px rgba(0, 0, 0, 0.2),
+          0 6px 15px rgba(0, 0, 0, 0.1);
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Barra de navegación -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Catálogo de Libros</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#autores">Autores</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#biografias">Biografías</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contacto">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container mt-5">
+      <div class="seccion">
+        <h1 class="text-center mb-5">Catálogo de Libros</h1>
+
+        <div class="row">
+          <div class="col-md-4 mb-4">
+            <div class="card">
+              <img
+                src="https://m.media-amazon.com/images/I/81dkyPDYGjL._SL1500_.jpg"
+                class="card-img-top img-size"
+                alt="Portada Libro 1"
+              />
+              <div class="card-body">
+                <h5 class="card-title">
+                  Hijas de la historia (Spanish Edition)
+                </h5>
+                <p class="card-text">
+                  Las vendieron como esclavas; las consideraron santas y
+                  demonios; unieron mundos opuestos por medio de la palabra;
+                  escribieron sobre los astros, la noche y la cocina.
+                </p>
+                <p class="card-text"><strong>Precio:</strong> $13.99</p>
+                <a href="#" class="btn btn-primary">Comprar</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4 mb-4">
+            <div class="card">
+              <img
+                src="https://m.media-amazon.com/images/I/91qQMg1aOxL._SL1500_.jpg"
+                class="card-img-top img-size"
+                alt="Portada Libro 2"
+              />
+              <div class="card-body">
+                <h5 class="card-title">
+                  Alas de hierro (Empíreo 2) (Planeta Internacional) (Spanish
+                  Edition)
+                </h5>
+                <p class="card-text">
+                  Todos esperaban que Violet Sorrengail muriera en su primer año
+                  en el Colegio de Guerra de Basgiath, incluso ella misma.
+                </p>
+                <p class="card-text"><strong>Precio:</strong> $12.99</p>
+                <a href="#" class="btn btn-primary">Comprar</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4 mb-4">
+            <div class="card">
+              <img
+                src="https://m.media-amazon.com/images/I/61Dy-yiCJKL._SL1500_.jpg"
+                class="card-img-top img-size"
+                alt="Portada Libro 3"
+              />
+              <div class="card-body">
+                <h5 class="card-title">James: A Novel</h5>
+                <p class="card-text">
+                  Una brillante reinvención llena de acción de Las aventuras de
+                  Huckleberry Finn, a la vez desgarradora y oscuramente
+                  humorística, contada desde el punto de vista del esclavizado
+                  Jim
+                </p>
+                <p class="card-text"><strong>Precio:</strong> $14.99</p>
+                <a href="#" class="btn btn-primary">Comprar</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4 mb-4">
+            <div class="card">
+              <img
+                src="https://m.media-amazon.com/images/I/81VpCkf3zHL._SL1500_.jpg"
+                class="card-img-top img-size"
+                alt="Portada Libro 4"
+              />
+              <div class="card-body">
+                <h5 class="card-title">
+                  Piense y hágase rico: La riqueza y la realización personal al
+                  alcance de todos (Spanish Edition)
+                </h5>
+                <p class="card-text">
+                  Así de fácil: la riqueza y la realización personal están al
+                  alcance de todas aquellas personas que lo desean; basta
+                  simplemente con desvelar un secreto, el secreto del éxito.
+                </p>
+                <p class="card-text"><strong>Precio:</strong> $18.99</p>
+                <a href="#" class="btn btn-primary">Comprar</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4 mb-4">
+            <div class="card">
+              <img
+                src="https://m.media-amazon.com/images/I/81BO7xfzXVL._SL1500_.jpg"
+                class="card-img-top img-size"
+                alt="Portada Libro 5"
+              />
+              <div class="card-body">
+                <h5 class="card-title">
+                  Hábitos atómicos: Cambios pequeños, resultados extraordinarios
+                  (Autoconocimiento) (Spanish Edition)
+                </h5>
+                <p class="card-text">
+                  La edición especial que tienes en tus manos incluye un
+                  poderoso curso en 11 lecciones para poner en práctica el
+                  cambio y mejorar tus hábitos en solo 30 días.
+                </p>
+                <p class="card-text"><strong>Precio:</strong> $10.99</p>
+                <a href="#" class="btn btn-primary">Comprar</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4 mb-4">
+            <div class="card">
+              <img
+                src="https://m.media-amazon.com/images/I/71bAomucasL._SL1500_.jpg"
+                class="card-img-top img-size"
+                alt="Portada Libro 6"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Antiestrés (Spanish Edition)</h5>
+                <p class="card-text">
+                  ¡Para! Nadie te está persiguiendo y no sabes detenerte.
+                  Además, te han dicho que ponerle pausa a la velocidad
+                  vertiginosa de la realidad en la que vives es casi un pecado.
+                </p>
+                <p class="card-text"><strong>Precio:</strong> $10.99</p>
+                <a href="#" class="btn btn-primary">Comprar</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4 mb-4">
+            <div class="card">
+              <img
+                src="https://m.media-amazon.com/images/I/710fosp+ghL._SL1499_.jpg"
+                class="card-img-top img-size"
+                alt="Portada Libro 7"
+              />
+              <div class="card-body">
+                <h5 class="card-title">
+                  De Mí Para Mí, La Tormenta Pasará (Spanish Edition)
+                </h5>
+                <p class="card-text">
+                  Nunca es tarde para otorgarte una segunda oportunidad. Cada
+                  día puedes empezar de nuevo, aprender de las experiencias que
+                  te hirieron, y avanzar hacia un futuro mejor.
+                </p>
+                <p class="card-text"><strong>Precio:</strong> $17.70</p>
+                <a href="#" class="btn btn-primary">Comprar</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4 mb-4">
+            <div class="card">
+              <img
+                src="https://m.media-amazon.com/images/I/81jsYLHnw9L._SL1500_.jpg"
+                class="card-img-top img-size"
+                alt="Portada Libro 8"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Inquebrantables (Spanish Edition)</h5>
+                <p class="card-text">
+                  Más que un libro de autoayuda, Inquebrantables ofrece un
+                  manifiesto que invita al lector a participar en el proceso de
+                  romper patrones y crear la vida que desean en las áreas de la
+                  familia, el amor, el matrimonio, carrera profesional y la
+                  vida.
+                </p>
+                <p class="card-text"><strong>Precio:</strong> $10.99</p>
+                <a href="#" class="btn btn-primary">Comprar</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4 mb-4">
+            <div class="card">
+              <img
+                src="https://m.media-amazon.com/images/I/615SuNj2kYL._SL1500_.jpg"
+                class="card-img-top img-size"
+                alt="Portada Libro 9"
+              />
+              <div class="card-body">
+                <h5 class="card-title">
+                  El secreto de las olas: Un thriller psicológico lleno de
+                  suspense y con un final inesperado (Spanish Edition)
+                </h5>
+                <p class="card-text">
+                  Tras la trágica muerte de su padre, Jesse, un adolescente de
+                  trece años, se ve obligado a mudarse con su madre a una
+                  pequeña isla en la costa de California.
+                </p>
+                <p class="card-text"><strong>Precio:</strong> $11.49</p>
+                <a href="#" class="btn btn-primary">Comprar</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="biografias" class="container mt-5">
+      <div class="seccion">
+        <h2 class="text-center mb-4">Autores</h2>
+        <p>
+          En esta sección, puedes listar información sobre los autores de los
+          libros.
+        </p>
+
+        <div class="card mb-4">
+          <div class="card-body">
+            <h5 class="card-title">Isabel Revuelta Poo</h5>
+            <p class="card-text">
+              Con una minuciosa investigación, Isabel conspira para entregar a
+              los lectores una visión de la historia femenina que no es
+              complaciente y sí muy reveladora.
+            </p>
+          </div>
+        </div>
+
+        <div class="card mb-4">
+          <div class="card-body">
+            <h5 class="card-title">Rebecca Yarros</h5>
+            <p class="card-text">
+              Rebecca es autora de más de quince novelas, entre ellas FOURTH
+              WING, que figuran en los primeros puestos de los best-sellers del
+              New York Times, USA Today, Sunday Times y Wall Street Journal, y
+              siempre está dispuesta a dar rienda suelta a las emociones.
+            </p>
+          </div>
+        </div>
+
+        <div class="card mb-4">
+          <div class="card-body">
+            <h5 class="card-title">Percival Everett</h5>
+            <p class="card-text">
+              Es uno de los autores más prestigiosos de los Estados Unidos. Ha
+              escrito unos treinta libros. Nació en 1956 en Georgia (EE.UU.)
+              Estudió Filosofía y es profesor de universidad. La mezcla entre la
+              profundidad de pensamiento y humor salvaje lo convierte en una voz
+              única.
+            </p>
+          </div>
+        </div>
+
+        <div class="card mb-4">
+          <div class="card-body">
+            <h5 class="card-title">Napoleon Hill</h5>
+            <p class="card-text">
+              Su obra es un monumento al logro individual y la piedra angular de
+              la motivación moderna. Su obra más famosa, Piense y hágase rico,
+              es uno de los libros más vendidos de todos los tiempos.
+            </p>
+          </div>
+        </div>
+
+        <div class="card mb-4">
+          <div class="card-body">
+            <h5 class="card-title">James Clear</h5>
+            <p class="card-text">
+              Es un conferencista y escritor bestseller centrado en los hábitos,
+              la toma de decisiones y la mejora continua. Es el autor del éxito
+              de ventas número 1 del New York Times, Hábitos Atómicos (Atomic
+              Habits), el cual ha traducido a más de 50 idiomas y vendido más de
+              5 millones de copias.
+            </p>
+          </div>
+        </div>
+
+        <div class="card mb-4">
+          <div class="card-body">
+            <h5 class="card-title">Nacarid Portal</h5>
+            <p class="card-text">
+              Nacarid Portal es una escritora bestseller reconocida como una de
+              las autoras de literatura motivacional más influyentes en español,
+              con más de diez títulos publicados y cerca de un millón de copias
+              vendidas. Su último libro, De mí para mí, la tormenta pasará, ha
+              sido un fenómeno en el mercado hispanohablante.
+            </p>
+          </div>
+        </div>
+
+        <div class="card mb-4">
+          <div class="card-body">
+            <h5 class="card-title">Daniel Habif</h5>
+            <p class="card-text">
+              Es un productor creativo, consultor y uno de los mejores y más
+              destacados conferencistas de habla hispana en el mundo. Sus giras
+              han superado las 350 presentaciones —en más de 150 ciudades de
+              Latinoamérica, Norteamérica y Europa—, en las que ha llenado
+              importantes teatros con más de un millón de espectadores.
+            </p>
+          </div>
+        </div>
+
+        <div class="card mb-4">
+          <div class="card-body">
+            <h5 class="card-title">Gregg Dunnett</h5>
+            <p class="card-text">
+              Es un autor británico que vive en la costa del cantábrico en
+              España. Escribe thrillers psicológicos e historias sobre viajes y
+              aventuras, normalmente relacionadas con el
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="autores" class="container mt-5">
+      <div class="seccion">
+        <h2 class="text-center mb-4">Biografías</h2>
+        <p>
+          Conoce más sobre la vida y obra de los autores de los libros de
+          nuestro catálogo.
+        </p>
+        <ul>
+          <li>
+            <strong>Isabel Revuelta Poo</strong>: (Ciudad de México, 1973)
+            Internacionalista, maestra investigadora e historiadora del arte
+            especializada en historia de México. Ha sido catedrática en el
+            Departamento de Arte de la Universidad Iberoamericana campus Ciudad
+            de México y es fundadora del curso privado La historia sin
+            mayúscula.
+          </li>
+          <li>
+            <strong>Rebecca Yarros</strong>: (14 de abril de 1982, Washingtong
+            D.C.), es una escritora estadounidense. Yarros ha alcanzado una
+            enorme fama global como autora de la saga Empíreo, que se convirtió,
+            en parte por su gran impacto a través de Booktok, en un éxito
+            global, tal vez el mayor de la literatura juvenil desde los libros
+            de Crepúsculo, Harry Potter y Los juegos del hambre.
+          </li>
+          <li>
+            <strong>Percival Everett</strong>: Es uno de los autores más
+            prestigiosos de los Estados Unidos. Ha escrito unos treinta libros.
+            Nació en 1956 en Georgia (EE.UU.) Estudió Filosofía y es profesor de
+            universidad. La mezcla entre la profundidad de pensamiento y humor
+            salvaje lo convierte en una voz única.
+          </li>
+          <li>
+            <strong>Napoleon Hill</strong>: Fue un escritor estadounidense. Es
+            considerado el autor de autoayuda y superación más prestigioso del
+            mundo. Entre otros supuestos éxitos dijo haber sido asesor de varios
+            presidentes de Estados Unidos: Woodrow Wilson y Franklin D.
+            Roosevelt, pero esto ha sido fuertemente cuestionado por
+            historiadores.
+          </li>
+          <li>
+            <strong>James Clear</strong>: Es un conferencista y escritor
+            bestseller centrado en los hábitos, la toma de decisiones y la
+            mejora continua. Es el autor del éxito de ventas número 1 del New
+            York Times, Hábitos Atómicos (Atomic Habits), el cual ha traducido a
+            más de 50 idiomas y vendido más de 5 millones de copias.
+          </li>
+          <li>
+            <strong>Nacarid Portal</strong>: Es una escritora bestseller
+            reconocida como una de las autoras de literatura motivacional más
+            influyentes en español, con más de diez títulos publicados y cerca
+            de un millón de copias vendidas.
+          </li>
+          <li>
+            <strong>Daniel Habif</strong>: Es considerado uno de los mejores y
+            más importantes con-ferencistas de habla hispana en el mundo. Su
+            primer libro, Inquebrantables, se convirtió en un contundente éxito
+            de ventas.
+          </li>
+          <li>
+            <strong>Gregg Dunnett</strong>: Es un autor británico que vive en la
+            costa del cantábrico en España. Escribe thrillers psicológicos e
+            historias sobre viajes y aventuras, normalmente relacionadas con el
+            mar.
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div id="contacto" class="container mt-5">
+      <div class="seccion">
+        <h2 class="text-center mb-4">Contacto</h2>
+        <form>
+          <div class="mb-3">
+            <label for="nombre" class="form-label">Nombre</label>
+            <input type="text" class="form-control" id="nombre" required />
+          </div>
+          <div class="mb-3">
+            <label for="email" class="form-label">Correo Electrónico</label>
+            <input type="email" class="form-control" id="email" required />
+          </div>
+          <div class="mb-3">
+            <label for="mensaje" class="form-label">Mensaje</label>
+            <textarea
+              class="form-control"
+              id="mensaje"
+              rows="4"
+              required
+            ></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Enviar</button>
+        </form>
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
